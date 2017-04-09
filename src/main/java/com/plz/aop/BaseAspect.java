@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
 public class BaseAspect implements InvocationHandler {
     Logger logger = LoggerFactory.getLogger(BaseAspect.class);
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        logger.info("invode method "+method.getName());
+        logger.info("invoke method "+method.getName());
         return null;
     }
 }

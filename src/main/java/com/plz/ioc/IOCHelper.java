@@ -1,7 +1,5 @@
 package com.plz.ioc;
 
-import com.plz.utils.ClassUtils;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import com.plz.ioc.annotations.Inject;

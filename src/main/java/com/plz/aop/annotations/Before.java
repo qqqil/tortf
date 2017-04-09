@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Created by andy on 17-4-7.
  */
-@Target(ElementType.TYPE)
+@Target(ElementType.METHOD)
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Before{
